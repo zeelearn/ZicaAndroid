@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9F9"
+    tools:context=".activities.DashboardNew">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/roboto"
+                    android:text=""
+                    android:visibility="invisible"
+                    android:onClick="showprofile"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/usertype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp"
+                    android:visibility="gone"
+                    android:onClick="showprofile"
+                    android:fontFamily="@font/roboto"
+                    android:text="Franchise"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/action_home"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:src="@drawable/kidzee_logo" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Modern School"
+                android:textColor="@color/primary_blue"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="10pt"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pune, Maharastra"
+                    android:layout_marginTop="-7dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/primary_blue"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="7pt"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/action_zee"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:src="@mipmap/zeellogo" />
+
+            <!--<ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_toLeftOf="@+id/action_menu"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_notificationbell"
+                android:backgroundTint="@color/colorAccent" />-->
+
+            <ImageView
+                android:id="@+id/action_menu"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="showPopup"
+                android:alpha="0.8"
+                android:background="@drawable/ic_menu"
+                android:backgroundTint="@color/primaryTextColor"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_f" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/page_margin_mid"
+            android:layout_marginRight="@dimen/page_margin_mid" />
+
+        <!--  <fragment android:name="com.zeelearn.zica.fragment.DashboardFragment"
+              android:id="@+id/home_fragment"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="match_parent" />-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/home_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/footer"/>
+        <TextView
+            android:id="@+id/footer"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:alpha="0.7"
+            android:onClick="onaboutus"
+            android:textColor="@color/colorAccent"
+            android:text="version mlzs_1.1"
+            android:layout_height="25dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

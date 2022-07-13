@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ZICA</string>
+
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_mobile_hint">Mobile Number</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="txt_logout_message">Are you sure you want to LogOut?</string>
+
+    <string name="title_error">Error</string>
+    <string name="er_inff_connection">Please check internet connection and try again later.</string>
+    <string name="er_invalidlogin">Invalid User Name and password, please check and try again later</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="baseuel">http://202.46.202.117/</string>-->
+    <string name="baseuel">http://103.11.155.117/</string>
+    <string name="contactus">For any support, write to <a href='mailto:care@zica.org'>care@zica.org</a></string>
+    <string name="homeurl">http://estudio.zica.org/</string>
+    <string name="placement">https://www.zica.org/placements</string>
+    <string name="appid">4</string>
+    <string name="news">https://www.zica.org/placements</string>
+    <string-array name="group_arrays">
+        <item>Select Pattern</item>
+
+    </string-array>
+</resources>

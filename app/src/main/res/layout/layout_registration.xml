@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"></ImageView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/loginHeader"
+        android:textColor="@color/colorPrimary"
+        android:text="Register with us"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <EditText
+        android:id="@+id/edt_name"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        style="@style/modifiedEditText"
+        android:hint="Enter Name"
+        android:maxLines="1" />
+
+        <EditText
+        android:id="@+id/edt_mobile"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        style="@style/modifiedEditText"
+        android:hint="@string/login_mobile_hint"
+        android:inputType="phone"
+        android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            style="@style/modifiedEditText"
+            android:hint="@string/login_email_hint"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <EditText
+        android:id="@+id/edt_schoolname"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        style="@style/modifiedEditText"
+        android:hint="School Name"
+        android:inputType="textEmailAddress"
+        android:maxLines="1" />
+
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/edt_password"
+            style="@style/modifiedEditText"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:hint="@string/login_password_hint"
+            android:entries="@array/group_arrays"
+            android:maxLines="1" />
+
+    <Button
+        android:id="@+id/cirLoginButton"
+        style="@style/loginButton"
+        android:background="@drawable/login_button_bk"
+        android:text="Register"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+</LinearLayout>

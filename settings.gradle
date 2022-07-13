@@ -1,0 +1,3 @@
+include ':zeedoc-release'
+include ':app', ':news-release'
+rootProject.name='MLZS'

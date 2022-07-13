@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="100dp"
+    android:layout_marginBottom="@dimen/activity_padding"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/page_margin_mid"
+            android:gravity="center_vertical"
+            android:background="#F4F6F6"
+            android:minHeight="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/page_margin_mid"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="#444"
+            android:text="Profile"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            style="@style/formstyle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_margin_mid"
+            android:fontFamily="@font/roboto"
+            android:text="User Name"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/formstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_f"
+            android:fontFamily="@font/roboto"
+            android:hint="User Name"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="@color/black"></EditText>
+
+        <TextView
+            style="@style/formstyle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_margin_mid"
+            android:fontFamily="@font/roboto"
+
+            android:text="User Type"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/usercode"
+            style="@style/formstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_f"
+            android:fontFamily="@font/roboto"
+            android:hint="User Type"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="@color/black"></EditText>
+
+        <TextView
+            style="@style/formstyle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_margin_mid"
+            android:fontFamily="@font/roboto"
+            android:text="Email ID"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/mail"
+            style="@style/formstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_f"
+            android:fontFamily="@font/roboto"
+            android:hint="email id"
+            android:textColor="@color/black"></EditText>
+
+        <TextView
+            style="@style/formstyle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_margin_mid"
+            android:fontFamily="@font/roboto"
+            android:text="Mobile Number"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/mobile"
+            style="@style/formstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_f"
+            android:fontFamily="@font/roboto"
+            android:layout_marginBottom="@dimen/activity_padding"
+            android:hint="Mobile Number"
+            android:textColor="@color/black"></EditText>
+
+
+        <Button
+            android:id="@+id/action_update"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/activity_margin"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:elevation="5dp"
+            android:alpha="0.8"
+            android:foreground="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_padding"
+            android:paddingRight="@dimen/activity_padding"
+            android:text="Update"
+            android:visibility="gone"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

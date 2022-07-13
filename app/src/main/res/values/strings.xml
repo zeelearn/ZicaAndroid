@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MLZS</string>
+    <string name="action_logout">Log Out</string>
+    <string name="terms_conditions_link">"I agree to all the <a href='http://www.kidzee.com/privacy-policy/'>Privacy Policy and Terms and Conditions</a>"</string>
+    <string name="url_privacy_policy">https://www.kidzee.com/Home/PrivacyPolicy</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="txt_logout_message">Are you sure you want to LogOut?</string>
+
+    <string name="title_error">Error</string>
+    <string name="er_inff_connection">Please check internet connection and try again later.</string>
+    <string name="er_invalidlogin">Invalid User Name and password, please check and try again later</string>
+    <string name="estudio">"Please click here to logon  <a href='http://estudio.zica.org'>http://estudio.zica.org</a>"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="BASE_URL_DEBUG">http://115.112.90.194:81/Android/</string>
+    <string name="BASE_URL">http://202.46.202.117/ZicaDataServices/api/ds/</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBU2yPczRNZ7ZbrYlIT7yZG9v6guZP4FS8
+        <!--AIzaSyAgCy6EgdEONhjl5PaTep3SHZgMVPe-04Q-->
+        <!--AIzaSyBtNCuDCLCO_TorJtu8_ZwwO1KCo_jQk9Q-->
+        <!--AIzaSyAF1KaFqTvjElw5kUhjPtx8yAk7yOcMDvk-->
+    </string>
+    <string name="baseuel">http://202.46.202.117/</string>
+    <string name="appid">3</string>
+    <string name="facebook_url">https://www.facebook.com/zicaworld</string>
+    <string name="youtube_url">https://www.youtube.com/user/ZICAWorld</string>
+    <string name="tweeter_url">https://twitter.com/ZICAWorld</string>
+    <string name="default_notification_channel_id">zica</string>
+
+    <string name="title_alert">Alert</string>
+    <string name="msg_no_internet">Can you please check your internet connection and try again.</string>
+</resources>
+

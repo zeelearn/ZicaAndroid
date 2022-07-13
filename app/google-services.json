@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046089372353",
+    "firebase_url": "https://zica-5435c.firebaseio.com",
+    "project_id": "zica-5435c",
+    "storage_bucket": "zica-5435c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046089372353:android:780ef331674ec7a5f03a40",
+        "android_client_info": {
+          "package_name": "zeelearn.zica.ecampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046089372353-hn6mj2gmdd86h4rncn7e66vc2ttcg716.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zeelearn.zica.ecampus",
+            "certificate_hash": "c94855cc13e69d44de296f7be987e7270e29f7e2"
+          }
+        },
+        {
+          "client_id": "1046089372353-dn6mc6a2ga6f76nc13rlll40ispqtrk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlip20U6rbdIQNHl5X6nVFal8uzW5gF2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046089372353-dn6mc6a2ga6f76nc13rlll40ispqtrk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

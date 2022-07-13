@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_ecampus"
+        android:enabled="true"
+        android:icon="@drawable/ic_compressed"
+        android:title="Virtual Connect"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_virtualsupport"
+        android:enabled="true"
+        android:icon="@drawable/ic_compressed"
+        android:title="Digital Support"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_schedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_compressed"
+        android:title="Schedule"
+        app:showAsAction="ifRoom" />
+    <!--<item
+        android:id="@+id/action_offline"
+        android:enabled="true"
+        android:icon="@drawable/ic_compressed"
+        android:title="Ofline"
+        app:showAsAction="ifRoom" />-->
+</menu>

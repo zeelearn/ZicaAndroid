@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F5BF3</color>
+    <color name="colorPrimaryDark">#1F5BF3</color>
+    <color name="colorAccent">#1F5BF3</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#1F5BF3</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="wht">#FFFFFFFF</color>
+    <color name="black">#34495E</color>
+    <color name="black_color">#34495E</color>
+    <color name="gray_f">#f2f4f4</color>
+    <color name="hint_color">#AEB6BF</color>
+    <color name="dark_gray">#FFA5A8AC</color>
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="red">#E74C3C</color>
+    <color name="red_f">#C0392B</color>
+    <color name="red_l">#EC7063</color>
+    <color name="red_m">#CB4335</color>
+    <color name="blue">#FF563CE7</color>
+    <color name="light_black">#FF494949</color>
+    <color name="textColorPrimary">#707070</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textbackground">#204b9b</color>
+
+    <color name="circle_gray">#707070</color>
+    <color name="profileBackground">#fff</color>
+    <color name="active">#58D68D</color>
+    <color name="hold">#F7DC6F</color>
+    <color name="close">#F1948A</color>
+    <color name="black_f">#5d6d7e</color>
+    <color name="transparent_android">@android:color/transparent</color>
+</resources>
